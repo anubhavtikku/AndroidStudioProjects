@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Outdoor Sports ">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="check_box_preference_1"
+            android:title="Cricket" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="check_box_preference_2"
+            android:title="Football" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="check_box_preference_3"
+            android:title="Hockey" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Indoor Sports ">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="check_box_preference_1"
+            android:title="Chess" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="check_box_preference_2"
+            android:title="Carrom" />
+    </PreferenceCategory>
+    <EditTextPreference
+        android:defaultValue="Default value"
+        android:key="et_gamer"
+        android:dialogTitle="Welcome Gamer"
+        android:dialogMessage="Enter Your Name"
+        android:dialogIcon="@mipmap/ic_launcher_round"
+        android:summary="Enter Gamer Name"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Gamer" />
+    <RingtonePreference
+        android:key="rt"
+        android:title="Ringtone title"
+        android:ringtoneType="all"
+        android:showSilent="false"
+        android:showDefault="true"
+        />
+</PreferenceScreen>
